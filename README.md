@@ -11,8 +11,8 @@ Docker was used to host this website. You may use your own preferred method.
 Docker requires preparation of the following files before proceeding further:
 
 `httpd.conf` - Required for SSL setup only (docker only).<br>
-`server.crt` - Required public key. Use your own preferred certificate signing method<br>
-`server.key` - Required private key. Use your own preferred certificate signing method<br>
+`server.crt` - Requires public key. Generated using <a href='https://certbot.eff.org/'>certbot</a>. Use your own preferred certificate signing method.<br>
+`server.key` - Requires private key. Use your own preferred certificate signing method.<br>
 
 Running website - Linux
 -----------------------
